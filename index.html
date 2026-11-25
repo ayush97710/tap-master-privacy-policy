@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Tap Master: Reflex Challenge</title>
+  <meta name="description" content="Privacy Policy and Terms for Tap Master – Reflex Challenge arcade game.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #090B18;
+      --bg-card: #10152B;
+      --bg-card-border: #1E2548;
+      --primary-neon: #7C4DFF;
+      --secondary-neon: #00E5FF;
+      --accent-pink: #FF4D9D;
+      --text-main: #FFFFFF;
+      --text-secondary: #AAB1CC;
+      --text-muted: #6F7898;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(124, 77, 255, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 30%, rgba(0, 229, 255, 0.08) 0%, transparent 40%),
+        linear-gradient(180deg, #090B18 0%, #0D1022 100%);
+      color: var(--text-main);
+      line-height: 1.7;
+      min-height: 100vh;
+      padding: 40px 20px 80px 20px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Header & Branding */
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .brand-logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 76px;
+      height: 76px;
+      border-radius: 24px;
+      background: linear-gradient(135deg, #10152B 0%, #151A35 100%);
+      border: 2px solid var(--secondary-neon);
+      box-shadow: 0 0 25px rgba(0, 229, 255, 0.35);
+      margin-bottom: 20px;
+    }
+
+    .brand-logo svg {
+      width: 44px;
+      height: 44px;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #AAB1CC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-family: 'Outfit', sans-serif;
+      color: var(--secondary-neon);
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .meta-badge {
+      display: inline-block;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--bg-card-border);
+      padding: 6px 16px;
+      border-radius: 20px;
+    }
+
+    /* Content Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--bg-card-border);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 28px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      transition: border-color 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(124, 77, 255, 0.4);
+    }
+
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    h2 .icon-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: rgba(124, 77, 255, 0.15);
+      color: var(--primary-neon);
+      font-size: 1.1rem;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-size: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 16px 0;
+    }
+
+    li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 12px;
+      color: var(--text-secondary);
+    }
+
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 10px;
+      color: var(--secondary-neon);
+      font-size: 1.3rem;
+      line-height: 1.2;
+    }
+
+    li strong {
+      color: var(--text-main);
+    }
+
+    a {
+      color: var(--secondary-neon);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--secondary-neon);
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--primary-neon);
+      border-bottom-style: solid;
+    }
+
+    .highlight-box {
+      background: rgba(124, 77, 255, 0.08);
+      border-left: 4px solid var(--primary-neon);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 16px 0;
+    }
+
+    .highlight-box p {
+      color: #E2E8F0;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding-top: 30px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--bg-card-border);
+    }
+
+    footer p {
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="brand-logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="42" stroke="#00E5FF" stroke-width="4" stroke-opacity="0.8"/>
+          <circle cx="50" cy="50" r="28" stroke="#7C4DFF" stroke-width="5"/>
+          <circle cx="50" cy="50" r="14" stroke="#00E5FF" stroke-width="3"/>
+          <circle cx="50" cy="50" r="6" fill="#FFFFFF"/>
+        </svg>
+      </div>
+      <div class="subtitle">TAP MASTER – REFLEX CHALLENGE</div>
+      <h1>Privacy Policy</h1>
+      <div class="meta-badge">Effective Date: November 25, 2026 • Version 1.0</div>
+    </header>
+
+    <!-- Section 1 -->
+    <div class="card">
+      <h2><span class="icon-badge">🛡️</span> 1. Introduction & Overview</h2>
+      <p>Welcome to <strong>Tap Master: Reflex Challenge</strong> ("we", "our", or "the Game"), developed by Tap Master Game Studio. We value your privacy and are committed to protecting it through transparent practices.</p>
+      <div class="highlight-box">
+        <p><strong>Core Guarantee:</strong> Tap Master is designed as a standalone, offline-friendly mobile arcade game. We do not require any registration, login, phone number, email address, or social media link to play.</p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="card">
+      <h2><span class="icon-badge">💾</span> 2. Data Storage & Local Game Progress</h2>
+      <p>All gameplay data is stored strictly on your local device storage:</p>
+      <ul>
+        <li><strong>High Scores & Leaderboard:</strong> Your personal best scores in Classic, Endless, and Challenge modes.</li>
+        <li><strong>Game Progression:</strong> Unlocked challenge stages (1 to 20) and daily challenge milestones.</li>
+        <li><strong>Virtual Currency:</strong> In-game coins earned through gameplay, achievements, and optional rewards.</li>
+        <li><strong>Target Skins:</strong> Unlocked cosmetic skins (Neon Cyan, Purple Galaxy, Fire Orange, Toxic Green, Golden Sun).</li>
+        <li><strong>Player Preferences:</strong> Sound effects (SFX), music, and haptic feedback toggles.</li>
+      </ul>
+      <p>This data never leaves your device and is not transmitted to our servers. If you clear app data or uninstall the game, this local data will be reset.</p>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="card">
+      <h2><span class="icon-badge">📢</span> 3. Advertising & Third-Party Services (Google AdMob)</h2>
+      <p>To support the ongoing development and keep Tap Master free for all players, our game integrates <strong>Google AdMob</strong> (Google Mobile Ads SDK) to serve advertisements:</p>
+      <ul>
+        <li><strong>Interstitial Ads:</strong> Full-screen advertisements displayed naturally between game rounds.</li>
+        <li><strong>Rewarded Video Ads:</strong> Optional advertisements that players may voluntarily choose to watch to earn bonus in-game coins.</li>
+      </ul>
+      <p>Google AdMob may collect and process pseudonymous data for ad delivery, diagnostics, and fraud prevention, including:</p>
+      <ul>
+        <li>Device identifiers (such as Google Advertising ID / GAID).</li>
+        <li>Approximate IP-based location and device network state.</li>
+        <li>App performance data, crash logs, and ad interaction analytics.</li>
+      </ul>
+      <p>All data collected by Google is governed by Google's Privacy Policy. You can learn more about how Google uses data when you use partner apps by visiting: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google's Partner Policy</a>.</p>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="card">
+      <h2><span class="icon-badge">⚙️</span> 4. Device Permissions</h2>
+      <p>Tap Master requests minimal permissions strictly necessary for game functionality:</p>
+      <ul>
+        <li><strong>VIBRATE / Haptic Feedback:</strong> Used solely to provide satisfying tactile vibration when tapping active targets. Can be disabled anytime in the in-game Settings.</li>
+        <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Used solely by the Google Mobile Ads SDK to fetch and display ads when connected to the internet.</li>
+      </ul>
+      <p>The game does <strong>not</strong> access your camera, microphone, photos, storage files, contacts, or precise GPS location.</p>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="card">
+      <h2><span class="icon-badge">👶</span> 5. Children's Privacy (COPPA Compliance)</h2>
+      <p>Tap Master: Reflex Challenge is designed for a general casual gaming audience, including teenagers and adults. We do not knowingly collect personal identifiable information from children under the age of 13. If you believe that your child has provided us with personal information, please contact us immediately, and we will take prompt action.</p>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="card">
+      <h2><span class="icon-badge">🔒</span> 6. Data Security</h2>
+      <p>We prioritize your privacy by minimizing data collection. Because we do not operate user accounts or cloud databases containing personal data, your risk of a data breach is virtually eliminated.</p>
+    </div>
+
+    <!-- Section 7 -->
+    <div class="card">
+      <h2><span class="icon-badge">🔄</span> 7. Updates to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in legal requirements or game features. Any changes will be posted on this page with an updated effective date.</p>
+    </div>
+
+    <!-- Section 8 -->
+    <div class="card">
+      <h2><span class="icon-badge">✉️</span> 8. Contact Us</h2>
+      <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy or our practices, feel free to reach out to us at:</p>
+      <div class="highlight-box">
+        <p><strong>Developer:</strong> Tap Master Game Studio<br>
+        <strong>Email:</strong> <a href="mailto:devappforge@gmail.com">devappforge@gmail.com</a> / <a href="mailto:tapmastergame@gmail.com">tapmastergame@gmail.com</a><br>
+        <strong>Package:</strong> com.tapmaster.game</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Tap Master: Reflex Challenge. All Rights Reserved.</p>
+      <p style="margin-top: 6px; font-size: 0.8rem;">Committed to transparent and user-friendly mobile arcade gaming.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
